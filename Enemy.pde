@@ -27,12 +27,12 @@ class Enemy{
         void movement(){
           if(right)
           {
-            x = x+1;
+            x = x+2;
             
           }
           else
           { 
-            x = x - 1;
+            x = x - 2;
           }
        
           // once the enemy ships reach the boundary of 495 turn right into false and have the ships move to the left
