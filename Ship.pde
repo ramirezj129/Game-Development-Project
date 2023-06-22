@@ -19,19 +19,19 @@ void sketch(){
  void movement(){
       if(right && x < 482) 
     {
-      x = x+2;
+      x = x+3;
     }
     if(left && x > 15) 
     {
-      x = x-2;
+      x = x-3;
     }
     if(up && y > 15) 
     {
-      y = y-2;
+      y = y-3;
     }
     if(down && y < 580) 
     {
-      y = y + 2;
+      y = y + 3;
     }
  }
  //keyHold function when user has the keyPressed for right,left,up,or down then
